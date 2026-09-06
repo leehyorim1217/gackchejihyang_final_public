@@ -1,0 +1,21 @@
+# 기본적으로 전부 무시
+*
+
+# 폴더는 탐색 가능
+!*/
+
+# 소스
+!*.ts
+!*.tsx
+!*.css
+
+# 프로젝트 실행에 필요한 패키지 정보
+!package.json
+!package-lock.json
+
+# Git
+!.gitignore
+
+# 환경변수는 무조건 제외
+.env
+.env.*
